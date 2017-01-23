@@ -4,7 +4,7 @@
 cd $JENKINS_HOME
 
 # set git details etc
-source git-settings.sh
+source ${JENKINS_HOME}/git-settings.sh
 
 git_status="`git status -unormal 2>&1`"
 if [[ "$git_status" =~ Not\ a\ git\ repo ]]; then
