@@ -1,7 +1,7 @@
 #!/bin/bash -e
 
 # Jenkins Configuraitons Directory
-cd $JENKINS_HOME/jobs
+cd $JENKINS_HOME
 
 # set git details etc
 source git-settings.sh
